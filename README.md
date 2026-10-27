@@ -40,10 +40,11 @@
 | 本地验证环境 | macOS 26.5.1、Apple Silicon arm64、Command Line Tools / Swift 6.3.2 |
 | 应用部署目标 | macOS 13；最低版本运行尚未独立验证 |
 | 自动化测试 | Swift Testing，运行需 macOS 14+ 和 Swift 6 工具链；119 项离线回归 |
-| Intel、完整 Xcode、其他系统版本 | 尚未独立验证；CI 配置待首次远程运行 |
+| 远程 CI | macOS 15.7.9 / arm64 / Xcode 16.4 / Swift 6.1.2；119 项测试、Release 构建与签名通过 |
+| Intel、其他系统／工具链配置 | 尚未验证；CI 不覆盖真实蓝牙、OAuth 或界面操作 |
 | 签名与分发 | 本机 ad-hoc 签名；没有 Developer ID、公证或通用二进制发行承诺 |
 
-维护者已观察原生界面、BLE 扫描及既有授权恢复。使用者反馈 0.3.1 的真实称重到 Google 链路跑通；这属于用户反馈，不是本项目自动化测试独立观测的云端写入。长期锁屏、睡眠恢复和不同固件仍需更多验证。
+维护者已观察原生界面、BLE 扫描及既有授权恢复。使用者反馈 0.3.1 的真实称重到 Google 链路跑通；这属于用户反馈，不是本项目自动化测试独立观测的云端写入。长期锁屏、睡眠恢复和不同固件仍需更多验证。远程构建与离线测试已通过[首轮 GitHub Actions](https://github.com/shadowfish07/weighdock/actions/runs/40539022069)，不将托管 runner 的成功当作实机或云端健康数据验证。
 
 ## 从源码构建
 
