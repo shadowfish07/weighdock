@@ -1,0 +1,29 @@
+# Build/cache and local tooling; not the vendored source or public fixtures.
+.build/
+build/
+.tools/
+node_modules/
+__pycache__/
+*.py[cod]
+.wrangler/
+release-prep/
+.DS_Store
+*.xcuserstate
+*.xcuserdatad/
+*.log
+# Runtime records, exports and local credential files (never blanket-ignore JSON).
+measurements.json
+measurements.json.*
+.env
+.env.*
+!.env.example
+client_secret*.json
+credentials*.json
+*.p12
+*.pfx
+*.key
+*.mobileprovision
+# Private interactive design work is kept locally, outside the source release.
+/design/
+website/dist/
+website/s400-pages-upload.zip

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+  <key>CFBundleExecutable</key><string>S400Menu</string>
+  <key>CFBundleIdentifier</key><string>local.S400Menu</string>
+  <key>CFBundleName</key><string>S400 体重同步</string>
+  <key>CFBundleDisplayName</key><string>S400 体重同步</string>
+  <key>CFBundlePackageType</key><string>APPL</string>
+  <key>CFBundleShortVersionString</key><string>0.3.1</string>
+  <key>CFBundleVersion</key><string>4</string>
+  <key>LSMinimumSystemVersion</key><string>13.0</string>
+  <key>LSUIElement</key><true/>
+  <key>NSHighResolutionCapable</key><true/>
+  <key>NSBluetoothAlwaysUsageDescription</key><string>接收您配置的小米 S400 体脂秤广播，将体重和体脂率保存到本机。</string>
+  <key>NSBluetoothPeripheralUsageDescription</key><string>接收您配置的小米 S400 体脂秤广播。</string>
+</dict></plist>

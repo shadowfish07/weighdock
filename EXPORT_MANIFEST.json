@@ -1,0 +1,1409 @@
+{
+  "format": 1,
+  "project": "WeighDock",
+  "version": "0.3.1",
+  "note": "Clean public source snapshot; no private git history, credentials, runtime data or interactive QA. Build targets retain S400Menu for compatibility.",
+  "files": [
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "sha256": "2a2884ae64cd644359f1fea19df9dbe44da94a8668ef35e6fcd32b6c27b7ce00",
+      "mode": 420
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha256": "1f103c6a9dd07cd13a9a6f17ace6b813f47747eb9cb7e00488cb2073caaf91bb",
+      "mode": 420
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.yml",
+      "sha256": "17cd606d36fbf8b03e9ebb99ae4b5295f2764ec6a5981af44e3a06f13c0fba84",
+      "mode": 420
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "4d0aeb9cc47bbbf111d69e3a6cc4fb3924476f4c290f4d6d34cc07ba12e07591",
+      "mode": 420
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "4a84ea801a692b598f41266fcf1e30952e8872307f143465e910dcbe5ee48109",
+      "mode": 420
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "d2e5251c4d8457c6b1b6a81cce016eaecdc78d2a5615864a9c20547063f1cba7",
+      "mode": 420
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "d20e59589bf257dbdff60a5766fe844f4093e72895a3cb7637d2f221b27607d3",
+      "mode": 420
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "12ac5047f2af0522f06798b1589ffc4599bc29c91f954d7874e0320634e777c0",
+      "mode": 420
+    },
+    {
+      "path": "Package.swift",
+      "sha256": "abf0b8ccb1982c8483054bb80003118437e7d6e0745e3ebd8c059ba53d815beb",
+      "mode": 420
+    },
+    {
+      "path": "README.md",
+      "sha256": "364427242c0e3117e861526a728d1cb07f073ad28e20755b68bd6b522460aecb",
+      "mode": 420
+    },
+    {
+      "path": "Reference/BodyMiScale/LICENSE",
+      "sha256": "50e6751797c50dedd75ef1b8a0d9e42f5f8472e9fbce91f34718e9f97b0c780a",
+      "mode": 420
+    },
+    {
+      "path": "Reference/BodyMiScale/NOTICE.md",
+      "sha256": "0a9800b05869f0d234c88efbb6c77f252082b3e8aa2a5051f373663dbf73adb5",
+      "mode": 420
+    },
+    {
+      "path": "Reference/BodyMiScale/source-manifest.json",
+      "sha256": "11894bfb6a0f2a1478b1b94b9858e5e871dbf702f6dea5e0296c03f4ef2d0c07",
+      "mode": 420
+    },
+    {
+      "path": "Reference/BodyMiScale/xiaomi_home.py",
+      "sha256": "25818dabecab3d941759c887e6b1ff0f1696522d138b78203a21076d8b74e68f",
+      "mode": 420
+    },
+    {
+      "path": "Reference/S400Aggregator.kt",
+      "sha256": "6ad4f5148266b833ed134288d6328cec3d2f20949b1ca200ab6905f4d8a5c527",
+      "mode": 420
+    },
+    {
+      "path": "Reference/S400BodyComposition.kt",
+      "sha256": "8c6cf75e5c23cb6f1b63b943a8e0318ae1e7183c95b0e415b04fba203b607c81",
+      "mode": 420
+    },
+    {
+      "path": "Reference/S400Decryptor.kt",
+      "sha256": "a91d4f88850b8bac1ed1a26bcdf4da22d10885d33a3aff2a1392c4f87486465b",
+      "mode": 420
+    },
+    {
+      "path": "Resources/Info.plist",
+      "sha256": "1aedc1696d24eea756fc3c8cc72b47172d3c609983d26287c5467e421d3b6c5b",
+      "mode": 420
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "fc1b71ceea7dd127a0c18217e8966fd735431999916b9c098a53ff8cd949951b",
+      "mode": 420
+    },
+    {
+      "path": "Scripts/archive-source.py",
+      "sha256": "53ecb9d2fa2bfc60037bf0d44b5ad0f367b86a949c7f3587b4fe7dbdc62445b6",
+      "mode": 493
+    },
+    {
+      "path": "Scripts/build.sh",
+      "sha256": "bacbf3556463fc7b94e22627143778862efa2ae027ca23f61c837ec696ea0df2",
+      "mode": 493
+    },
+    {
+      "path": "Scripts/export-source.py",
+      "sha256": "8b34a6ab7bc49b2ce66333dcd25bdbcbda3b0c55e2671ff5d1667014dcafcbbe",
+      "mode": 493
+    },
+    {
+      "path": "Scripts/mihome-study.sh",
+      "sha256": "23c8fb671272b8e2d5f9c26e0c15bb3af4b94eeeb9d05d329b678473878253c7",
+      "mode": 493
+    },
+    {
+      "path": "Scripts/mihome_optimized_check.swift",
+      "sha256": "3dcc7c246d04b8a2da89b0d453f9e63802b2f13da49d70def8f2b4b46dd97407",
+      "mode": 420
+    },
+    {
+      "path": "Scripts/mihome_reference.py",
+      "sha256": "ceead48e35a98084a6b2f53318dd929c24bb1ae03c86601b4c1853ea007d36d2",
+      "mode": 420
+    },
+    {
+      "path": "Scripts/test.sh",
+      "sha256": "033078777493f3a51696671a60ef06fcebbc7603243a79fabd009b09f1d0d62e",
+      "mode": 493
+    },
+    {
+      "path": "Sources/MiHomeCompatibility/MiHomeCompatibility.swift",
+      "sha256": "70e6e5cac72b98f4d140f004def3effc00041e029e4867b0b80a25c99846dc19",
+      "mode": 420
+    },
+    {
+      "path": "Sources/S400Core/OAuthClientConfiguration.swift",
+      "sha256": "02ceaf426ff13c4d9d0b616e2a8321c583fbc36d6b0ef6e961bdef68332b744b",
+      "mode": 420
+    },
+    {
+      "path": "Sources/S400Core/S400Protocol.swift",
+      "sha256": "5e59409eb44478669cffbb2ec5949bb00cde9c391657fbca1b35f3e411422212",
+      "mode": 420
+    },
+    {
+      "path": "Sources/S400Core/Store.swift",
+      "sha256": "28c55e4e31084f29f4f4671239c24909c0e5e66f23be91f8eae253359d983f3c",
+      "mode": 420
+    },
+    {
+      "path": "Sources/S400Core/WeightFilterSettings.swift",
+      "sha256": "951d8a2fdf0b2e2364eb96865dbf555780f7488300960489c1860a051f3ed42e",
+      "mode": 420
+    },
+    {
+      "path": "Sources/S400Menu/App.swift",
+      "sha256": "ae07bc548a2d17c30e5db59638e774ec896795ec1cb975bca7f2fb46f1796947",
+      "mode": 420,
+      "source_sha256": "7f5e7724b04f7565357098af52fa6792b30a76ddf2a9e5dac083deb69ecbfc85",
+      "transformation": "Keep production branches; remove DEBUG interactive QA only"
+    },
+    {
+      "path": "Sources/S400Menu/AppModel.swift",
+      "sha256": "14c053fe9619bcb9343bff25223101b42e081c57f3f983c8fcd7e285f6b66724",
+      "mode": 420,
+      "source_sha256": "f870da22187c4feca8d6a07fe62e3ca4454a9fb69b6d082e4c27a371fd933c5e",
+      "transformation": "Keep production branches; remove DEBUG interactive QA only"
+    },
+    {
+      "path": "Sources/S400Menu/Bluetooth.swift",
+      "sha256": "8c18429861dd834f242770ac42a40bcfbf9a218bbdd644337bd7fcb9a1784136",
+      "mode": 420
+    },
+    {
+      "path": "Sources/S400Menu/CredentialAccess.swift",
+      "sha256": "5cea352bcff0b6068c51add4a9360b5850dd9066451d4561669402c12120520d",
+      "mode": 420
+    },
+    {
+      "path": "Sources/S400Menu/Credentials.swift",
+      "sha256": "e7fc5d1cc1ce8b27f9c4975dec058e4a01c3285b2cf0bb84d863a8119475661f",
+      "mode": 420
+    },
+    {
+      "path": "Sources/S400Menu/Services.swift",
+      "sha256": "461816dcacdab406096adc5508369eb3c7ac267b41241de2e8631ff764ced8f2",
+      "mode": 420
+    },
+    {
+      "path": "Sources/S400Menu/Sync.swift",
+      "sha256": "255b96ddd548c317b50c534d7b573b7bc5d7a71502d0dd2785b5ed91d4cecfee",
+      "mode": 420
+    },
+    {
+      "path": "Sources/S400Menu/Views.swift",
+      "sha256": "ff41f144e490b667ce87eb8308bed6ba47e96c0737abbd70aa5a459b2ff46e9b",
+      "mode": 420,
+      "source_sha256": "156f61b6b64a2eac5d3845f82664b26ff397d2496c723eb96cbabef0e28d7b86",
+      "transformation": "Keep production branches; remove DEBUG interactive QA only"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "6f0761e65529b6d3327f5a7ae5e6fdb2bb343c3bb2d92fe1474a3232cd447048",
+      "mode": 420
+    },
+    {
+      "path": "Tests/MiHomeCompatibilityTests/ComparisonReportTests.swift",
+      "sha256": "ef74d389890c522b49f07d667f438489375177f879c728355879e2d517aa1dd0",
+      "mode": 420
+    },
+    {
+      "path": "Tests/MiHomeCompatibilityTests/CompatibilityTests.swift",
+      "sha256": "8adfffda54791725ae433fb2ac829f9180f4d07666fc5d9b0e62c15406625662",
+      "mode": 420
+    },
+    {
+      "path": "Tests/MiHomeCompatibilityTests/Fixtures/public-comparison.json",
+      "sha256": "9b6650ebcfcdc0a58421087cedab68fc5b8ef5257b9b1d3e82f1cd1c5c8bbb3e",
+      "mode": 420
+    },
+    {
+      "path": "Tests/S400CoreTests/AppModelTests.swift",
+      "sha256": "ac479f335c9aa942cdad2d825127080a0196c11ad23ca697dd2a712ec793bae7",
+      "mode": 420
+    },
+    {
+      "path": "Tests/S400CoreTests/Assertions.swift",
+      "sha256": "1fe05c5fd329091051bd91637c30f3fd7a071e4a88d345d27d8afa4f5b2cbc71",
+      "mode": 420
+    },
+    {
+      "path": "Tests/S400CoreTests/CredentialAccessTests.swift",
+      "sha256": "1eaaa5f7accd9eba45df43e181f4709bdb423fcd5bc26e585652650a2a4dee43",
+      "mode": 420
+    },
+    {
+      "path": "Tests/S400CoreTests/CredentialRecoveryTests.swift",
+      "sha256": "9e73982e7e0af25171ee4aebdbf8a79e4ff1658bb682c74bb7002f6bca5a14f9",
+      "mode": 420
+    },
+    {
+      "path": "Tests/S400CoreTests/GooglePersistenceTests.swift",
+      "sha256": "ca3f8239ad9967448733ed042669c82b71af5e641d3c06fb9a7b73dd0475c53d",
+      "mode": 420
+    },
+    {
+      "path": "Tests/S400CoreTests/OAuthConfigurationTests.swift",
+      "sha256": "275b920088844122ad90a85eff7968bfee4a691513d82782f988d2f926c78848",
+      "mode": 420
+    },
+    {
+      "path": "Tests/S400CoreTests/ProductionAlgorithmTests.swift",
+      "sha256": "139d04aa828def77918223797b5123b79ac1e9fb9a0a30b64ae392fee73bb1d0",
+      "mode": 420
+    },
+    {
+      "path": "Tests/S400CoreTests/ProtocolTests.swift",
+      "sha256": "72c98403ac626d5142103276d1dc8dd8700bcd98fc8278dea5576414546f8ae7",
+      "mode": 420
+    },
+    {
+      "path": "Tests/S400CoreTests/StoreTests.swift",
+      "sha256": "75ecba4d9da7b2124dfae5987e7d9ff66ce134bb55cbe637cd5b7388cfe5edf3",
+      "mode": 420
+    },
+    {
+      "path": "Tests/S400CoreTests/SyncTests.swift",
+      "sha256": "c7aaffec268bf499968d37f1176106c743a61dfc642e152c37103ec8b2f806f8",
+      "mode": 420
+    },
+    {
+      "path": "Tests/S400CoreTests/WeightFilterTests.swift",
+      "sha256": "b40f5dfb77e94ff9ab4a8d369f68ee13f7ec55cee74084cf50f8d0d663084527",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/AUTHORS",
+      "sha256": "fc44b8c91ac2df7b772155f977fd207df490ec2dd5ff7320929b9d1dd27342f2",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/CONTRIBUTORS",
+      "sha256": "476f31e4ebeb7b0792ac36b96b4154847f5e81ae7db1de0eddc2c3e53e89447f",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Package.swift",
+      "sha256": "2bba5a41f3d284ef36c8d532a6b44044655106d80007071665dd6f587ac0b172",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/README.md",
+      "sha256": "4a443397820b096b7656edb5db0099f3cd6504f45b7c9c95ac2ea9aa4159d8d6",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuth.h",
+      "sha256": "2beecd95fecb9b891dce3db10adb230b4933d8d6427bc531b706c6bd9bf9d21e",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuth/Resources/PrivacyInfo.xcprivacy",
+      "sha256": "5ade962faaea1eddbbdd06c4cf8a872cec554f64c55a00e00136004d378e1ced",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuth/iOS/OIDAuthState+IOS.h",
+      "sha256": "7af6781e94700ef0832fd9043db1404bc219749c6be48a97751018e539dbfdc3",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuth/iOS/OIDAuthState+IOS.m",
+      "sha256": "27c484ad6abd72b4fdc4e102a196bb863dba88ffb84d9c8ae8bc11c1bdda2828",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuth/iOS/OIDAuthorizationService+IOS.h",
+      "sha256": "99fa580ec9ed69489d5a3641c81d40906f197e145d2e040ed00c1c4e7ab1e207",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuth/iOS/OIDAuthorizationService+IOS.m",
+      "sha256": "f6ca650c1e12d141a5f7adf64f0fab84e2e8bc896d316db467612f0df072e9c7",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuth/iOS/OIDExternalUserAgentCatalyst.h",
+      "sha256": "b02f8c5c5e9df55f00b5c2d0b38c4c4c6728f002dbc0354671921a6f29c94e0c",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuth/iOS/OIDExternalUserAgentCatalyst.m",
+      "sha256": "8bb0b7d8c370f7fe413804824c671feae5db640a0ff2df8fb17d5618109d1af7",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuth/iOS/OIDExternalUserAgentIOS.h",
+      "sha256": "32f41356fd7249ed1a8d06963ffc46ce968499e9a60bef623f9c49bba905c61c",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuth/iOS/OIDExternalUserAgentIOS.m",
+      "sha256": "8d29e7d939d178e3604196b29e7da9755ca34b935e40d30d827447323330ade2",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuth/iOS/OIDExternalUserAgentIOSCustomBrowser.h",
+      "sha256": "cf1e4033328dfefa01bf0423186efb64b39daf7f8ddba84c314dbdee202bb7fa",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuth/iOS/OIDExternalUserAgentIOSCustomBrowser.m",
+      "sha256": "f563710976b6ea0241fa5c68cb98cb1d8f8e128e44b1cb7685bb6ab38bc020d2",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuth/macOS/LoopbackHTTPServer/OIDLoopbackHTTPServer.h",
+      "sha256": "8134e8c349ba3db20a2e025f49adbee29a7be181cbd3478a35e06ad1c3e595a1",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuth/macOS/LoopbackHTTPServer/OIDLoopbackHTTPServer.m",
+      "sha256": "e2e937818e21d2641bf410732189f727f714da595cb48086102d7e085761fdc7",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuth/macOS/OIDAuthState+Mac.h",
+      "sha256": "51bcbfe59d70bad3164740b97f839f84627f6b2c7bf2fad247d60bd782e040bc",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuth/macOS/OIDAuthState+Mac.m",
+      "sha256": "65c41978f40bc121cb57f2f4bc48847d6b4dd15e1b9011ff2a59708aceaaec82",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuth/macOS/OIDAuthorizationService+Mac.h",
+      "sha256": "de774ac243d5ca094bc51c49ff32fcdec351a632b23523e27532a80b1fa16cf2",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuth/macOS/OIDAuthorizationService+Mac.m",
+      "sha256": "ef7481e89ff7dc1863bdecd52892a7ee537b562b950cbc5783f60ec800434ffe",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuth/macOS/OIDExternalUserAgentMac.h",
+      "sha256": "2f607310cd2de203aac6c2abd9555b68067b7e2f26bfc3404ee3cec4611411f6",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuth/macOS/OIDExternalUserAgentMac.m",
+      "sha256": "80f5709f6c93fae208bebab8d11e712f8e5c11fda167cf533ac4e61f547256c5",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuth/macOS/OIDRedirectHTTPHandler.h",
+      "sha256": "4637281c3c08db5a0079cec86305697c40ef8373b8e4f89ebbd231cfc9a86761",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuth/macOS/OIDRedirectHTTPHandler.m",
+      "sha256": "cc7cb7f4db47a09d319de69f55c569ae2afccf1bad0109d397e26276036e3a8f",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore.h",
+      "sha256": "ecff9882299559282bc9d4a214371fab85d50af93269b7ca6a74781311e7cb53",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDAuthState.h",
+      "sha256": "bec44f2bdda5c3ea62a9ef90787499c3e5df44c4c33bc6386f74ddcf1c3e4752",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDAuthState.m",
+      "sha256": "729c0acc8e3eaf40ebefb06881e8afd9d3f25fd2d895932e3212710367bfdd27",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDAuthStateChangeDelegate.h",
+      "sha256": "fedf9e0ef90dfcbfaf8f066fd96909cec051a3513fd17cbd2cba714d6988c048",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDAuthStateErrorDelegate.h",
+      "sha256": "b515911453a7635900c04f32607bdf70854d57fa471166a39b0e267b8912844d",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDAuthorizationRequest.h",
+      "sha256": "15514a48b1b85c8c6fc43fd5c9aa413ca1e0fbc3f11d6bd67a40999a4a008685",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDAuthorizationRequest.m",
+      "sha256": "b5378fe88b578659d340239b02cef7778bb45cfdfea33973dbd4c2375a711e55",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDAuthorizationResponse.h",
+      "sha256": "485ab636ebeb8d7088488fe009fdae84fcd464b80cc90e52e3a85e6603c0e7f9",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDAuthorizationResponse.m",
+      "sha256": "7aae5d8595a64238d216c635b841e1fae394459876f1c1d94b7be52c30693a3a",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDAuthorizationService.h",
+      "sha256": "8763d34e0f379e141bd4d6450a280005e649f6a795389e222f9d0d9c4d2303fe",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDAuthorizationService.m",
+      "sha256": "5d00d04ed8e1bae4189c03b7a6a1f50747bf6f6a6d3c9f551b984429c2f6891c",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDClientMetadataParameters.h",
+      "sha256": "36265cceef9c7166178f10703aa8a0637e1b6303f4600ccf2566e8511dbc2178",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDClientMetadataParameters.m",
+      "sha256": "279795722a4d12e25fa1bcbff37f450412eb4e239ff921f5efb4a620ca6adf4f",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDDefines.h",
+      "sha256": "7d2b3bd7f92c00fe6ec9b4480491e0e12bc19984758f2d8edf916844bae18e16",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDEndSessionRequest.h",
+      "sha256": "a6e68cf26a7b34fde01ce245e2b70dbdea452fc501aa45756d74c9cf9253ef16",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDEndSessionRequest.m",
+      "sha256": "3a0da8c179234c4576ca933b5a7e096eef7d9d07f90f6f86d1e684fc2a2b916a",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDEndSessionResponse.h",
+      "sha256": "ca0033d9d9ceb2ac38030d8245d3696abd0d08449ebfa7807dcd6bf24d4cef98",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDEndSessionResponse.m",
+      "sha256": "39c645f47589a1ad16c486a4bee1dabc4e8343796976ab571a66ea030c9694ad",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDError.h",
+      "sha256": "2036a90e9e29b907a0351a4136377abd510a85315cb3e175149d9e1e4e9060d0",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDError.m",
+      "sha256": "063439b5c456f6c0ef5ae71b32757c05a63710a18bf2cdedb09d77a97eeba66d",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDErrorUtilities.h",
+      "sha256": "7dc09fec8e182395536c7564fd30e5ce176f5e5387b038c10155a52aa3cafd4b",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDErrorUtilities.m",
+      "sha256": "14ecdcc590aa424e9552e1a40b548422103a3feba67e18664ff866e0f0dd0ebc",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDExternalUserAgent.h",
+      "sha256": "d6b41599c0d14b1a57a4117bfdb0d4fd387e96f9fc0ed2c84367eec899801c50",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDExternalUserAgentRequest.h",
+      "sha256": "1f2d22b36821e67b1e38b3b9d5d3f7e5cc5c6fc9669bd4caf13fedb2bdc13144",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDExternalUserAgentSession.h",
+      "sha256": "fb99ea446ac6e94533845cd608bbb703c0e4443d61ad1b94eaeb94aa102e614b",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDFieldMapping.h",
+      "sha256": "f2fd6842f3194693da3d12c5f1f584576ac562b2c89081e5ef0e169e7fcdf6b2",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDFieldMapping.m",
+      "sha256": "1be5f47d32647c377b8408cc060d20c8cae9a22d746f7b9fadefe9be1c94f479",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDGrantTypes.h",
+      "sha256": "8dcc8e64172c6b302a66900319d7cf96348fbb3bd30583414489558c64d76f00",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDGrantTypes.m",
+      "sha256": "1f0e138d3838f85bf00ca9e3837eca042044cf4605c0798ca2abfb7776a31fe6",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDIDToken.h",
+      "sha256": "5fb08ba28cc44d5b19ca4d9dc5eb6054799a8c9309d4658b170e7f0c030b5c7a",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDIDToken.m",
+      "sha256": "44759cd7419a1b68e3f6deb5bd9b318356c1acb887fc9e2701b8ce4923b541f3",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDRegistrationRequest.h",
+      "sha256": "960d7108d589b1a22cedd9b6e35ee3a452bf84dd833a1db9ac314a6e46382c14",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDRegistrationRequest.m",
+      "sha256": "d8ef29bfc0a6f7046babf87b62f2c10d0364100201771ea3b9721bb61e62ac69",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDRegistrationResponse.h",
+      "sha256": "6e577236790dd2ea3c9e4d5458ef37c7b21d2d84ba7cda281dc718603e3a731f",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDRegistrationResponse.m",
+      "sha256": "e0d22cb7efb61f85b160b428800857927f136b1fa85a9c7087ea2b5715bf4e7c",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDResponseTypes.h",
+      "sha256": "f5bbc27b3bb4c5b79c5eaacaf3c475ba055768dbb82a9ba913a66a5989ff2a6d",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDResponseTypes.m",
+      "sha256": "20d10e3b17b09e475ded299fc65ee33da1171862bc381de209676a5d6e45bd3e",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDScopeUtilities.h",
+      "sha256": "799fd2b41efe51921137cc09265ec1560ccf44e6fd87326988a64920137d8dbb",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDScopeUtilities.m",
+      "sha256": "7dc221ee2813ee197153356c25724b35238314bd3101290a5e87d4ba2c6ce198",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDScopes.h",
+      "sha256": "494b0a362640fbf6471bd0381c5ee7840849c24c533e0616d640cd6120887e18",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDScopes.m",
+      "sha256": "12fa18f620f1030deb880f8e358a3cabe947465957ca3ebd52d9e04b554708ba",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDServiceConfiguration.h",
+      "sha256": "393f99759e7c3bd31f33ff52a18eca7e7d6ab8eaa5eb3f6e8d7d5ce8c05e1680",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDServiceConfiguration.m",
+      "sha256": "21018fdda8c86cca132be42c5314477f39b0114beeb4d777b29003be5d9b6729",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDServiceDiscovery.h",
+      "sha256": "19f9a35e953705569b219951eb37c338e405a032c41919bf83a24c7cfa0dd8b5",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDServiceDiscovery.m",
+      "sha256": "65915dfb2e9507e73ae9c304c5ee37bdb8f0b0f41ee20892cb22083afab4f925",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDTokenRequest.h",
+      "sha256": "e7ca1c49fb353cb34535e85df286c712a5dd438fe1839b9aede476574e9e4e8e",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDTokenRequest.m",
+      "sha256": "f72dc284dc169a195844c015d106f233ce313261d75f8d3f8fa8760637201063",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDTokenResponse.h",
+      "sha256": "d6b8afaa50eec98584b7fe0623be1fbdcb73edc4cd70046c433458b9b8d1d824",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDTokenResponse.m",
+      "sha256": "df10267953436600174f54f91a0bbdd0132b9ee68d795d52dd42bee08c6369fe",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDTokenUtilities.h",
+      "sha256": "0186c60858c95d560b91183df8fe414ae86b707da78970c768b0bec95ae19c3f",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDTokenUtilities.m",
+      "sha256": "080b206ba9ba49095522874f991de0d14b3bfa27edb851aae17115e456b7f1af",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDURLQueryComponent.h",
+      "sha256": "832ac3b13d05ca18d566acf172cc5ab260baeb1a2ad3e87505baff3a346a2a7f",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDURLQueryComponent.m",
+      "sha256": "d476c25148fbb7747dad8dc9fd89a9c471810d2d9e60d3d84c4eebcf01691b34",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDURLSessionProvider.h",
+      "sha256": "8118e65476d6d205287ded98cdca6d839fba5d607eccef6db9b99d5c8b16a91c",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/OIDURLSessionProvider.m",
+      "sha256": "9adfd98af299f9e5111f0e7deaccde3df75c7ca776f93e43ee92b47539783330",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthCore/Resources/PrivacyInfo.xcprivacy",
+      "sha256": "5ade962faaea1eddbbdd06c4cf8a872cec554f64c55a00e00136004d378e1ced",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthTV.h",
+      "sha256": "638bdd8f2356116776c3a1d2e139a718f0c00c4b6065c708dd6de270d6d80a16",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthTV/OIDTVAuthorizationRequest.h",
+      "sha256": "945151b27b8c92d3577db51001f1f8eb2a67518cc7d6ee60e4479556d3c8a239",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthTV/OIDTVAuthorizationRequest.m",
+      "sha256": "0cde46e251cf06480f6e7cd8bcdbc698e8bdacfd5e4692ce0de8b5386e88b3e0",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthTV/OIDTVAuthorizationResponse.h",
+      "sha256": "dbc0cf66aaeb9deb399033ed9360bc64025eec644b0d4ecdbadb900dd0a203a8",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthTV/OIDTVAuthorizationResponse.m",
+      "sha256": "01b9ac8762f2a445b64438647611c1d118ab34c94c65fd6830c5669f3e213584",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthTV/OIDTVAuthorizationService.h",
+      "sha256": "fe70864db35a2abb369dadd9c25284ee9d8b6048864dfe6a3df7e91a5657fe13",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthTV/OIDTVAuthorizationService.m",
+      "sha256": "dd9bedf53f0ea76d277cc4b8217d46ed9cef8f5ab32aa617250d16fe033b067a",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthTV/OIDTVServiceConfiguration.h",
+      "sha256": "62861827ec5fcb57c88cdf48f941f16ce076a601a53ea7e46b4c05b2f61f36c2",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthTV/OIDTVServiceConfiguration.m",
+      "sha256": "c740c490d378eb563fd4f0abfc061ab76fe5d0ff797f66513ed57d892b90ef09",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthTV/OIDTVTokenRequest.h",
+      "sha256": "a2508104d47307d19075c8eb83645f8899d4ab1ffdbc4dcf613dd38ddbefac19",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthTV/OIDTVTokenRequest.m",
+      "sha256": "31df812bbf054528a6d9fc8cc6d4929cdb914f9fcbe3694e1874ff1e0d05029d",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/AppAuthTV/Resources/PrivacyInfo.xcprivacy",
+      "sha256": "5ade962faaea1eddbbdd06c4cf8a872cec554f64c55a00e00136004d378e1ced",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/CoreFramework/AppAuthCore.h",
+      "sha256": "0e7218c1f75994239cfd2213b221b937cea471d0f5197372c5f623d4a9e43eb1",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/CoreFramework/Info.plist",
+      "sha256": "0f8ea26a9dd9e76f00fbafa10bb47c0549f0cdf1bdf595b3816cb601d309fbc9",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/Framework/AppAuth.h",
+      "sha256": "6f45e957de0aef10d3dfe7a3ab1fd5d9128af6140e095cedbc36806c91c44692",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/Framework/Info.plist",
+      "sha256": "0f8ea26a9dd9e76f00fbafa10bb47c0549f0cdf1bdf595b3816cb601d309fbc9",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/TVFramework/AppAuthTV.h",
+      "sha256": "8d23969dcd313a98cd796d77c9e1c7409e9c315e6d60b9af0592db76eca4b84d",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/Sources/TVFramework/Info.plist",
+      "sha256": "4b1b4f6f03a9c6285eb4af75bc4a0d0c7852014de28fb8a18b42bad3b9eb5ae3",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/UnitTests/AppAuthTV/OIDTVAuthorizationRequestTests.h",
+      "sha256": "5ad325323b4bd0336ab51ff740e56f9aa0773c401274d42de3d1e7a29ae587d4",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/UnitTests/AppAuthTV/OIDTVAuthorizationRequestTests.m",
+      "sha256": "031595213e74dab9cbd2ee6accac84c9805b3b922c6e2aefecd16201cd38561f",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/UnitTests/AppAuthTV/OIDTVAuthorizationResponseTests.h",
+      "sha256": "85ace7e8aa21f79230974548424139a831a9d5273c3a24682f35d08f3d747b5d",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/UnitTests/AppAuthTV/OIDTVAuthorizationResponseTests.m",
+      "sha256": "626984730d70c9bc6a49c8c800ab4d24c6c06e7211c1cf4069ed4952794279e9",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/UnitTests/AppAuthTV/OIDTVTokenRequestTests.h",
+      "sha256": "ca8f251cd652f271d8c34217e3c3a264dc984e0af8b4a84a74a1fcaae3065239",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/UnitTests/AppAuthTV/OIDTVTokenRequestTests.m",
+      "sha256": "957cddd0e5a7d7fe6261ca18d8c8e1a7cb5d75805a7db0e0a77a1858988abacd",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/UnitTests/OIDAppAuthTests-Bridging-Header.h",
+      "sha256": "ca6b85a4d92835a56bbf230d3a676a4de5c0fae28a4767edc02ba80df9fd9455",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/UnitTests/OIDAuthStateTests.h",
+      "sha256": "09807a7479b5e325cddf8bbf7d5459943abe7006f9922f6f7e9a4c0d986b83d2",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/UnitTests/OIDAuthStateTests.m",
+      "sha256": "081ddedf4f3132911dd1253a01c38b0991d522a9bb854d338ecef1b6be414d6f",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/UnitTests/OIDAuthorizationRequestTests.h",
+      "sha256": "c630954ce0f53e96695fb57e7a57b3a8da390b4cb3ea0efd0916e630f0ebfc43",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/UnitTests/OIDAuthorizationRequestTests.m",
+      "sha256": "8db9d8c6aa0df1f9423a5c1fd823e2482b4d099194a3c2a74b36168b43c2e7a5",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/UnitTests/OIDAuthorizationResponseTests.h",
+      "sha256": "04166c8fd06b45ac7b4b43775a7453d11fb88c4e7c4cdf91bdb0311ffdd9650d",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/UnitTests/OIDAuthorizationResponseTests.m",
+      "sha256": "b9c0e940d5169bd05de1b778744e70dd1d9580f37949f6ccbc7b566a505b6437",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/UnitTests/OIDEndSessionRequestTests.h",
+      "sha256": "aead1b30f602a9d79b4e7caaa1a62047112c375aced91d7387abb0cf0d475a8f",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/UnitTests/OIDEndSessionRequestTests.m",
+      "sha256": "f927e3b0371d75c7f0fda7de59613cf6bb359cc9239dd2945629204a12f3a8e3",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/UnitTests/OIDGrantTypesTests.m",
+      "sha256": "99d461a26d5096d2288358065c618ba559de5dddb57b37fa92e87d524fae8638",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/UnitTests/OIDRPProfileCode.h",
+      "sha256": "191b0be4610275633f2a04e73e4db8abba744ddc62214bf8c527817718b3eee9",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/UnitTests/OIDRPProfileCode.m",
+      "sha256": "7f3df45fd8bdea27964a95b6fb0680f8aca3492f826b135967b147c7fa5e7f01",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/UnitTests/OIDRegistrationRequestTests.h",
+      "sha256": "d03eebdbe4aafcc3f52ceee8a0b5a25fe55f1a13b15891e8da5b6ff31cd8cf84",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/UnitTests/OIDRegistrationRequestTests.m",
+      "sha256": "390b50142d1d3998f1a1e277ae953e8120973fcf30863cf6b41e9d09ba15e0d5",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/UnitTests/OIDRegistrationResponseTests.h",
+      "sha256": "9d9a2752cfda173d4babdad9fdf8bfbbcac6d475e2b26e248fe16cca51638376",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/UnitTests/OIDRegistrationResponseTests.m",
+      "sha256": "cea9dbf04f0a8efd965c5f4c0c19c29d341e1b91e774eac5f476a52785508a85",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/UnitTests/OIDResponseTypesTests.m",
+      "sha256": "e0f65bd44b9c19b9c1f6822c4496e070ed5381f276748c381d5eb5f907220c3e",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/UnitTests/OIDScopesTests.m",
+      "sha256": "9e498581e570f2a44e1d83aae54e8d60e57113cb85e978035c7f734d87fb2b38",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/UnitTests/OIDServiceConfigurationTests.h",
+      "sha256": "494f8e891c27b15f0bc5a06bda0467e9da931401822861a8b1ecc44481c15819",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/UnitTests/OIDServiceConfigurationTests.m",
+      "sha256": "1af012dd75202fdc2724737cfd3bb174169ba407fab74fa03b31d66d298704e6",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/UnitTests/OIDServiceDiscoveryTests.h",
+      "sha256": "366171337ed5c3a5e7604d091a71c40b6044651593cc2b4dd92fe22cfe46dece",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/UnitTests/OIDServiceDiscoveryTests.m",
+      "sha256": "2fc42d497dd2a7a7259f5bfef2962c45f2cb8206fb12c203610e8b64294b52f4",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/UnitTests/OIDSwiftTests.swift",
+      "sha256": "ab8c6fbe96c8a7429f01c1a7e55e743d1b61705cab2768ae827016fc23f62cd2",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/UnitTests/OIDTokenRequestTests.h",
+      "sha256": "0eb027b727aec361e149adb62bca173396794e4f70b3b8eab7d4f440b1397f22",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/UnitTests/OIDTokenRequestTests.m",
+      "sha256": "986f0bd00656f6f93cb0c3df46fb3d22efec5621327a2bd9dda1ee39c8753ef2",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/UnitTests/OIDTokenResponseTests.h",
+      "sha256": "7853708b1223a0e18a843e0223a8a6f90c1447fcd3d9d97e928af6d78a24f459",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/UnitTests/OIDTokenResponseTests.m",
+      "sha256": "bff68c23d938826a23c7cc24ee656dc47247cb80084384a197dd2cca1b35a120",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/UnitTests/OIDTokenUtilitiesTests.m",
+      "sha256": "ac2b41956e3e8efc8a2e247db1a10641a10bc2cfaac8977cbc032d1898dfa27f",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/UnitTests/OIDURLQueryComponentTests.h",
+      "sha256": "e36efaf0dbafd616725c79fb98dc3d94dff2baa0175894d028538fc1a6d549fc",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/UnitTests/OIDURLQueryComponentTests.m",
+      "sha256": "93f9d70af9ceeccf350bcdb42357031bf416efba45a25d0a0648369df4f719e3",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/UnitTests/OIDURLQueryComponentTestsIOS7.m",
+      "sha256": "2c4f5421d4973683486f98aae41bf055fa3287c264a090f297ca26d8ad861ba3",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/UnitTests/OIDURLSessionProviderTests.m",
+      "sha256": "8173dc79e1189366e1b7d88ed6fb38d40a7802b7fda9410332c7ed895b9918af",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/AppAuth-iOS/UnitTests/UnitTestsInfo.plist",
+      "sha256": "1dcb5aa88dabb5f19b671f7066204bd58220ded8654dc91f5f79e09690d81365",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/GTMAppAuth/GTMAppAuth/Sources/AuthSession.swift",
+      "sha256": "eebfa3e446a0e5fa12dc933e0918447d3ca287c30074da7d27a1c5be824d3c0f",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/GTMAppAuth/GTMAppAuth/Sources/AuthSessionDelegate.swift",
+      "sha256": "e082cb7bcf642d1488523fd316f5168f979d18738ff3dfe099e09d4fe2051685",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/GTMAppAuth/GTMAppAuth/Sources/AuthSessionStore.swift",
+      "sha256": "48c2e70809da16a11a73086c44e66a9b6b119025ff1b5ed320519a940cf8bdee",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/GTMAppAuth/GTMAppAuth/Sources/KeychainStore/GTMOAuth2Compatibility.swift",
+      "sha256": "c7e04e25a81e0acecc60bbf2df97ec10c8539983cdbe540b6b26c7d4def89965",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/GTMAppAuth/GTMAppAuth/Sources/KeychainStore/KeychainAttribute.swift",
+      "sha256": "3adee96f4d5af5dc7aa69d82669daf2a8b50db75798ffa71769f040e2308d93d",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/GTMAppAuth/GTMAppAuth/Sources/KeychainStore/KeychainHelper.swift",
+      "sha256": "6c79e3ddda6d13de5c5b6a0529e0403ff76c27b330a60ef563ddcd9240a2c5af",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/GTMAppAuth/GTMAppAuth/Sources/KeychainStore/KeychainStore.swift",
+      "sha256": "2d7cec9de8bb7dadc1667f3fe87ccd612ba645c8d852ebc326dcf4f9d638d22b",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/GTMAppAuth/GTMAppAuth/Sources/Resources/PrivacyInfo.xcprivacy",
+      "sha256": "5a9b8fc0cddb10201bb47cc2804b3f004c7251476622d25bfc4eb54ed46e1084",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/GTMAppAuth/GTMAppAuth/Tests/Helpers/AuthorizationTestingHelp.swift",
+      "sha256": "cb6860b2a405438a669fa9ee088bcf2532759ca9d7f869a7465b9704ee0afc53",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/GTMAppAuth/GTMAppAuth/Tests/Helpers/GTMAppAuthTestingHelpers.swift",
+      "sha256": "6ec3d91435d46813d8c66e94868d99e68dabc63847da42e20e70c74753274bc4",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/GTMAppAuth/GTMAppAuth/Tests/Helpers/KeychainHelperFake.swift",
+      "sha256": "290713e6bc77e8494fb62347aef7ea0970466ac7d98228d9c61244729560e3a2",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/GTMAppAuth/GTMAppAuth/Tests/Helpers/OIDAuthStateTesting.swift",
+      "sha256": "90dc6057f7bb6560826d9a2e83e77c4991995626963d5ed3791c79f4bb0f15b5",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/GTMAppAuth/GTMAppAuth/Tests/Helpers/OIDAuthorizationRequestTesting.swift",
+      "sha256": "92b0d8eb4b1c6212f6e321761fd04f9864df84a56b65757cabad300c6ba8e7c6",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/GTMAppAuth/GTMAppAuth/Tests/Helpers/OIDAuthorizationResponseTesting.swift",
+      "sha256": "cd04d4f3cf965835565586dd445f42aab3fb0bdf53f30029fc888d1884f3ef74",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/GTMAppAuth/GTMAppAuth/Tests/Helpers/OIDRegistrationRequestTesting.swift",
+      "sha256": "e79227a9a2d8135a8d0459717a7c86fe77904dd9c81c3d3b59de0740cad8affd",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/GTMAppAuth/GTMAppAuth/Tests/Helpers/OIDRegistrationResponseTesting.swift",
+      "sha256": "62bb52dfe1d833593fc00679f23bbbbd84f729b7c066c64541d857b6deed8884",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/GTMAppAuth/GTMAppAuth/Tests/Helpers/OIDServiceConfigurationTesting.swift",
+      "sha256": "33d696ce6a81d7cf05429a781541029a019fb5018b9e11c3bd6b8f18850fcdab",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/GTMAppAuth/GTMAppAuth/Tests/Helpers/OIDTokenRequestTesting.swift",
+      "sha256": "a846345b99ce7f96fd36fdd877596e0f589ec1a4deaba5d7b2fb661530359211",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/GTMAppAuth/GTMAppAuth/Tests/Helpers/OIDTokenResponseTesting.swift",
+      "sha256": "54f9cd70947cd2b7ba41c8ac9e844d0e443c65d6a5d0abf18668b25417fe8af6",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/GTMAppAuth/GTMAppAuth/Tests/ObjCIntegration/GTMAuthSessionTests.m",
+      "sha256": "f3013a6ff1fba17fedc0b9585facd979e6d7de715a946a96d9a663ff2ccf97ba",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/GTMAppAuth/GTMAppAuth/Tests/ObjCIntegration/KeychainStore/GTMKeychainStoreTests.m",
+      "sha256": "9d1c5a9de69dae83630baef06e5e66e70e5d2a7f020c19bfcf3889094a2147d1",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/GTMAppAuth/GTMAppAuth/Tests/ObjCIntegration/KeychainStore/GTMOAuth2CompatibilityTests.m",
+      "sha256": "e77a90cd1eab4ad816d50dc3621cb56a528396be6a740cb6babfe82e11b5dcd8",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/GTMAppAuth/GTMAppAuth/Tests/Unit/AuthSessionTests.swift",
+      "sha256": "1cb7afd10b19969005af12473099d94be65e27a359079aba61b5a285eab52199",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/GTMAppAuth/GTMAppAuth/Tests/Unit/KeychainStore/GTMOAuth2CompatibilityTests.swift",
+      "sha256": "6301a7ef01a1706ded2d95b5a74840ee5469d960ef1224132746fbfaa9ab0f7f",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/GTMAppAuth/GTMAppAuth/Tests/Unit/KeychainStore/KeychainStoreTests.swift",
+      "sha256": "9b2808bd815d0ea7d56496d16d5bde4320b72848985e4ce3a85aa7b91e0f43f5",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/GTMAppAuth/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/GTMAppAuth/Package.swift",
+      "sha256": "2d3fef6b2b72f09d127fd1168cf4d9fd6870546a9e2703989942bcdd162e8f6b",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/GTMAppAuth/README.md",
+      "sha256": "87da0b80234188147ca879250bbc99dbc789a83d49a36704793bd14dc65c1819",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/Package.swift",
+      "sha256": "99a8785aca614825ef87a54ba944a99753c7682327431ff8fe7c9df604582774",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/README.md",
+      "sha256": "3f20d31bbad81085c3410f3dc8dc484bf82e12c9f8e021c4159a75d677d98475",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/Sources/Core/GTMSessionFetcher.m",
+      "sha256": "ce2e026d20765cfc019612954ab599a7671f237d7038776a44cb2a262a6e579e",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/Sources/Core/GTMSessionFetcherLogging.m",
+      "sha256": "9a6c427dd6d9e1df7ce882068d6252703b17ef4be0f96d5081c65439f2714b02",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/Sources/Core/GTMSessionFetcherService+Internal.h",
+      "sha256": "3762085a59b8a9fd1a4be7e530f18aa444fbfc7c3d313628d724f774a266f49e",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/Sources/Core/GTMSessionFetcherService.m",
+      "sha256": "b4a4294be25215724265737d78306b359b5331c8448ef401ae06a666aa6b5bb3",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/Sources/Core/GTMSessionUploadFetcher.m",
+      "sha256": "7bb4e4301a68cc056546d1c688bc3ff2ac75c69cfa9fcc6d611d85b7bafaf73b",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/Sources/Core/Public/GTMSessionFetcher/GTMSessionFetcher.h",
+      "sha256": "5f9e795c48c4587c113da978078e149cfcf54ab66b602bb71e5b86bf4be5266c",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/Sources/Core/Public/GTMSessionFetcher/GTMSessionFetcherLogging.h",
+      "sha256": "90b180a18cfd0f54fddbd3a06abff69722900ebb06adaa9ab0dadb25165704bc",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/Sources/Core/Public/GTMSessionFetcher/GTMSessionFetcherService.h",
+      "sha256": "0f92b3de1f6ee4af97ff59f03c9108aa47704efd4ba2b680ad2f5edd7d62a5d2",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/Sources/Core/Public/GTMSessionFetcher/GTMSessionUploadFetcher.h",
+      "sha256": "9b5e9a4ae34f3b83617bee8263427ec00b4e7dcb1d94325f907bc3e01a8b83db",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/Sources/Core/Resources/PrivacyInfo.xcprivacy",
+      "sha256": "3e4a93cbe86acef7dd7e063a28c849992f556e7f52cadc5f37c1e8b0e1b54686",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/Sources/Full/GTMGatherInputStream.m",
+      "sha256": "4a41c5da24b586363b1beec2b452e44284eb0d5c037c4f9073af6ea6bab2cc0f",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/Sources/Full/GTMMIMEDocument.m",
+      "sha256": "12e51f34a0ff69f00e01d58fbe4c614b820e08074c211abc28416545dc14757b",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/Sources/Full/GTMReadMonitorInputStream.m",
+      "sha256": "761c3d5552bdd51ce374371b375e5da1106e9f2e9dba5f96119652e6675f6138",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/Sources/Full/Public/GTMSessionFetcher/GTMGatherInputStream.h",
+      "sha256": "165c6188a5776116e9b6442ff9a3bf0752a091b6351996ee5051c0c84705190f",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/Sources/Full/Public/GTMSessionFetcher/GTMMIMEDocument.h",
+      "sha256": "d4582bef66f88034971c3f96fe2000e51c2728aeaca5bab9df4d3b1349df872a",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/Sources/Full/Public/GTMSessionFetcher/GTMReadMonitorInputStream.h",
+      "sha256": "bb4f011fc86114b110c7bba117c290aa13fb6c0ddaf201a8141828fe59e9a753",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/Sources/Full/Resources/PrivacyInfo.xcprivacy",
+      "sha256": "74b0cd72fc23c1ef302f22ee2753f61817cdc5af0ff7a7f2d0632b524fb8acea",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/Sources/LogView/GTMSessionFetcherLogViewController.m",
+      "sha256": "e98e42d1aaf813a0df78dcc6466487a9411ecc9e623660cd7d417b00fc8e969f",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/Sources/LogView/Public/GTMSessionFetcher/GTMSessionFetcherLogViewController.h",
+      "sha256": "4d655a553e9873b34889cfb2458c37cf23f792e2ebefcd44e7fc82ba18701bf0",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/Sources/LogView/Resources/PrivacyInfo.xcprivacy",
+      "sha256": "37f23fa7aabe84ee3c9a1f162c2c036612e5142aa6e3ce1dfc711161572d3131",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/SwiftPMTests/ObjCImportTest/HeadersImportTests.m",
+      "sha256": "2003380ec83fa459cd2d50f2a2bde75b99a0e2a18d7e88e2350bd489b12a2db0",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/SwiftPMTests/ObjCImportTest/ModuleImportTests.m",
+      "sha256": "2669c6b8f6741aa1290c5a076583d9ede5f662f2fe80966fe71ad7746377fba3",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/SwiftPMTests/SwiftImportTest/ImportTests.swift",
+      "sha256": "2b9f227397cc0c236a5517429107f546313b68abae66d5145c9f7ebe01aa08a4",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/UnitTests/Data/gettysburgaddress.txt",
+      "sha256": "695faf196a9ad5dc72e1af098616d1f85f7e8132fb5bab87c854d242cf7c92e8",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/UnitTests/FetcherNotificationsCounter.h",
+      "sha256": "008e9fd5e45e297dd2ce3c3bfb58581b112907d9a2b2a5fd0ed850d74e92d6b9",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/UnitTests/FetcherNotificationsCounter.m",
+      "sha256": "f7299d7e0f835f7c2020d7505d256e61224acbf85677a14cbf3540d39e0ee443",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/UnitTests/GTMGatherInputStreamTest.m",
+      "sha256": "01a0772ebe8b5c9f5041c183c59d859345bd1d912291ac21e2b462c709a2e9fe",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/UnitTests/GTMHTTPServer.h",
+      "sha256": "066e1f87be5567c58f18e22053f13def7f2a52d1f5acf75e823adb34da38984e",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/UnitTests/GTMHTTPServer.m",
+      "sha256": "9d5a4041e49fa8684d211885038fa1170cae92f1a1759aae22a0d72b3b4e7396",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/UnitTests/GTMMIMEDocumentTest.m",
+      "sha256": "16b5e9179cfad8e8f4fa588734084f045d4728afdc869b2f7cd09dbcb58d4fa2",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/UnitTests/GTMReadMonitorInputStreamTest.m",
+      "sha256": "13a47aca5ad81dccd85738dc250a5773e0a7ee69f7d9957d684022082479e18b",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/UnitTests/GTMSessionFetcherChunkedUploadTest.m",
+      "sha256": "b3d85665f65034d4060bfe9c5e7db9b49b3bc80d4f096d8f6d6cb2feab28d886",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/UnitTests/GTMSessionFetcherCookieTest.m",
+      "sha256": "47d011961902ac2866df25c5914dddee98a3bb597923db7acbcf493234ee498f",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/UnitTests/GTMSessionFetcherFetchingTest.h",
+      "sha256": "4b8b31b04073710b300a558d100328ac23f68fb05c04056cffdcd37b90172bb8",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/UnitTests/GTMSessionFetcherFetchingTest.m",
+      "sha256": "15dd4fa88ed87f88e643f7b55aa32f3980d9245a7a514b2e38e824c2d7232944",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/UnitTests/GTMSessionFetcherServiceTest.m",
+      "sha256": "f744e582692ec6c4e038925f39136b36701dd259b6ea24278d373b032df841e5",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/UnitTests/GTMSessionFetcherTestServer.h",
+      "sha256": "7089a307cfcb97710981f7c7a2908aa1a4f7689acf018b6707b571339e8b9b5c",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/UnitTests/GTMSessionFetcherTestServer.m",
+      "sha256": "3da7eb798def6d3eccb2383ec5b31f27871bdb1a7ceb5608c5f2b420e051c346",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/UnitTests/GTMSessionFetcherUserAgentTest.m",
+      "sha256": "394ff5d976d961bcf8121f495cc7f6aca0b30675ad16129a7d5cc32e05f37b8d",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/UnitTests/GTMSessionFetcherUtilityTest.m",
+      "sha256": "3acd4dae26b5c152a27c6dcdb7c4eed330a29ded7a1853b88794e7ce4bade13d",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/UnitTests/SubstituteUIApplication.h",
+      "sha256": "43a051b736bf9e67b199f83e70104efa2286a75e85e7fb0e858b626379991e70",
+      "mode": 420
+    },
+    {
+      "path": "Vendor/gtm-session-fetcher/UnitTests/SubstituteUIApplication.m",
+      "sha256": "d797f4faa9f68d7b5927c4f6e2c6a26cbb6f15db5f357f3b87a6a58aad077e23",
+      "mode": 420
+    },
+    {
+      "path": "docs/GoogleHealthSetup.md",
+      "sha256": "8918973abfcbd4093e4f25ad0ac7bd7c71b4b7f8971cc2e38ea9e963f4819486",
+      "mode": 420
+    },
+    {
+      "path": "docs/MiHomeCompatibilityStudy.md",
+      "sha256": "d7fae320cd3811cd4e5c73e62bbca279eb2e6db0e95f0d78f682b0b6fa096e4d",
+      "mode": 420
+    },
+    {
+      "path": "docs/ReleaseChecklist.md",
+      "sha256": "1ad1be294b101fcd595f8634f53e57c42707c3aa37f5213df6e99b3453d00ff3",
+      "mode": 420
+    },
+    {
+      "path": "docs/Validation.md",
+      "sha256": "c32de5156f9eb2536177ef9c17044d8105b5c0c5b9ca78f1384eb1672b31dbf8",
+      "mode": 420
+    },
+    {
+      "path": "examples/README.md",
+      "sha256": "58886de015998bd64c348820c73846ef399f6bc8405c22c9f6d0400141b36e96",
+      "mode": 420
+    },
+    {
+      "path": "examples/desktop-oauth.example.json",
+      "sha256": "57035d6843bd713160046ba8807e41a747981dbf99c1e4744006c5dfa3e33221",
+      "mode": 420
+    },
+    {
+      "path": "website/README.md",
+      "sha256": "ec4b0619227877214d5945d5625a1f67ab4becf1d703cb8e0995fbea619bcd89",
+      "mode": 420
+    },
+    {
+      "path": "website/icon.svg",
+      "sha256": "7a28610b0dc5a0b49b0f8adff1306ac2e021c9314267931f4c065eaa976a10ed",
+      "mode": 420
+    },
+    {
+      "path": "website/index.html",
+      "sha256": "9d2a8fcb5811b3a8bfac18bbbd9e272d001634f632194f9edc7020c11b2b2c11",
+      "mode": 420
+    },
+    {
+      "path": "website/prepare.py",
+      "sha256": "f24dcc0f2c58b6aa69f985ef491709e3feec32b5a41624cc09b81ad4c63baaed",
+      "mode": 420
+    },
+    {
+      "path": "website/privacy/index.html",
+      "sha256": "0533cb5319936ac8dca3803c3906ccf5ca08fc52bc16cc19206ad1708b14be9b",
+      "mode": 420
+    },
+    {
+      "path": "website/styles.css",
+      "sha256": "694012253faff08cdfee4e7c427426bb7c60394edb0b8abb6fe80e5076588897",
+      "mode": 420
+    }
+  ]
+}

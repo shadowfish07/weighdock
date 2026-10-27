@@ -1,0 +1,53 @@
+{
+  "release": "2026.10.4",
+  "commit": "3d75ed80e2f3b437f96c7b442a144f4fd9c12c97",
+  "files": [
+    {
+      "path": "custom_components/bodymiscale/metrics/xiaomi_home.py",
+      "sha256": "25818dabecab3d941759c887e6b1ff0f1696522d138b78203a21076d8b74e68f",
+      "bytes": 8239
+    },
+    {
+      "path": "custom_components/bodymiscale/metrics/impedance.py",
+      "sha256": "34945dc0105246fe2fa0f2c5234227eae34d796505a5bd5d83b64158521fb1a5",
+      "bytes": 32449
+    },
+    {
+      "path": "custom_components/bodymiscale/util.py",
+      "sha256": "602d2d98bd46f99c183ce7e49ea59bc992f3ef213f0ca432418e94c1547b0b54",
+      "bytes": 3877
+    },
+    {
+      "path": "custom_components/bodymiscale/profile.py",
+      "sha256": "f314154f7b97375957b02cfdfe3554343b6f83173a4bd4aa39557772fb929093",
+      "bytes": 28013
+    },
+    {
+      "path": "custom_components/bodymiscale/manifest.json",
+      "sha256": "e5fabc472721492dc6b88b6a27b755d822a5778daebd3e5b5977c9c35f7b3829",
+      "bytes": 404
+    },
+    {
+      "path": "tests/components/bodymiscale/test_xiaomi_home.py",
+      "sha256": "246ea5b65f10f54656f8b42ca33c567f586e4a78752b765e9a2f2759f230221b",
+      "bytes": 16796
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "50e6751797c50dedd75ef1b8a0d9e42f5f8472e9fbce91f34718e9f97b0c780a",
+      "bytes": 11324
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "559935c24530317f656ca9542dd36102ee0b1b404ac405ec8faacde93ed9e226",
+      "bytes": 3204
+    }
+  ],
+  "merged_pr_commit": "3109f4c13534929667e50e0012dd64fc15ae6333",
+  "source_origin": "S400 Pro firmware transcription, later integrated and compared against public S400 observations",
+  "executed_upstream_code": false,
+  "merged_pr_release_matches": {
+    "custom_components/bodymiscale/metrics/xiaomi_home.py": true,
+    "tests/components/bodymiscale/test_xiaomi_home.py": true
+  }
+}

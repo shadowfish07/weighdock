@@ -1,0 +1,29 @@
+name: Offline build and tests
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  macos:
+    runs-on: macos-15
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Toolchain
+        run: |
+          xcode-select -p
+          swift --version
+          uname -m
+      - name: Offline regression tests
+        run: ./Scripts/test.sh
+      - name: Release build and ad-hoc signature
+        run: ./Scripts/build.sh
+      - name: Offline formula reference
+        run: python3 Scripts/mihome_reference.py

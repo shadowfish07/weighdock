@@ -1,0 +1,26 @@
+name: 问题反馈
+description: 描述源码预览版的问题；请勿附真实健康记录或凭据
+title: "[问题] "
+body:
+  - type: markdown
+    attributes:
+      value: "请先阅读 SECURITY.md。不要上传 measurements.json、OAuth JSON、令牌、MAC/Bind Key、系统诊断或未经检查的截图。安全问题请走私下渠道。"
+  - type: input
+    id: environment
+    attributes:
+      label: 版本与环境
+      description: 应用版本、macOS、arm64 或 Intel、Swift/CLT 或 Xcode 版本（无需机器名）
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤与预期行为
+      description: 只用合成示例描述；不需要体重数值或个人资料
+    validations:
+      required: true
+  - type: textarea
+    id: status
+    attributes:
+      label: 实际状态
+      description: 可提供界面状态或错误代码；先删除敏感信息，不贴服务错误正文
