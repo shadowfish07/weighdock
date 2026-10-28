@@ -30,7 +30,7 @@ open build/S400Menu.app
 
 按应用引导完成三步：
 
-1. **添加秤**：填写原始 MAC 和 BLE Bind Key，需要自行准备。
+1. **添加秤**：自行在本机按 [Xiaomi Cloud Tokens Extractor](https://github.com/PiotrMachowski/Xiaomi-cloud-tokens-extractor) 的指南运行，登录绑定该秤的米家账号并选择对应地区（国行通常为 `cn`），将同一台 S400 的 `MAC`、`BLE KEY` 分别填入原始 MAC、BLE Bind Key。`BLE KEY` 不是普通 `TOKEN`，请勿公开密钥。
 2. **设置资料**：只记录体重可以跳过；估算体脂需填写身高、出生年份和性别。
 3. **连接 Google**：使用自己的 OAuth 客户端，支持 JSON 导入或手填。详见 [Google Health 配置教程](docs/GoogleHealthSetup.md)。
 
