@@ -21,10 +21,8 @@
 git clone https://github.com/shadowfish07/weighdock.git
 cd weighdock
 ./Scripts/build.sh
-open build/S400Menu.app
+open build/WeighDock.app
 ```
-
-（当前应用包暂沿用 `S400Menu.app` 名称。）
 
 ## 首次设置
 

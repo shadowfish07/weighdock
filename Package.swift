@@ -1,7 +1,7 @@
 // swift-tools-version: 5.9
 import PackageDescription
-let package = Package(name: "S400Menu", platforms: [.macOS(.v13)], products: [
-    .executable(name: "S400Menu", targets: ["S400Menu"])
+let package = Package(name: "WeighDock", platforms: [.macOS(.v13)], products: [
+    .executable(name: "WeighDock", targets: ["S400Menu"])
 ], dependencies: [
     .package(path: "Vendor/GTMAppAuth"), .package(path: "Vendor/AppAuth-iOS")
 ], targets: [

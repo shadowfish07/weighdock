@@ -14,7 +14,7 @@ import Combine
         let preview = false
         model = AppModel(preview: preview)
         statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
-        statusItem.button?.image = NSImage(systemSymbolName: "scalemass", accessibilityDescription: "S400 体重同步")
+        statusItem.button?.image = NSImage(systemSymbolName: "scalemass", accessibilityDescription: "WeighDock")
         statusItem.button?.target = self
         statusItem.button?.action = #selector(togglePanel)
         popover = NSPopover()
@@ -23,7 +23,7 @@ import Combine
         popover.contentSize = NSSize(width: 400, height: 620)
         popover.contentViewController = NSHostingController(rootView: AppShellView(model: model))
         setupWindow = NSWindow(contentViewController: NSHostingController(rootView: AppShellView(model: model)))
-        setupWindow.title = "S400 体重同步"
+        setupWindow.title = "WeighDock"
         setupWindow.styleMask = [.titled, .closable]
         setupWindow.isReleasedWhenClosed = false
         setupWindow.delegate = self

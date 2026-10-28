@@ -55,7 +55,7 @@ import S400Core
         HStack(spacing: 10) {
             Image(systemName: "scalemass").font(.title2).foregroundStyle(.blue)
             VStack(alignment: .leading, spacing: 2) {
-                Text(model.setupStep == nil ? pageTitle : "欢迎使用 S400").font(.headline)
+                Text(model.setupStep == nil ? pageTitle : "欢迎使用 WeighDock").font(.headline)
                 if model.setupStep != nil || model.selectedTab == .overview {
                     Text(model.setupStep == nil ? "体重同步" : "首次配置").font(.caption).foregroundStyle(.secondary)
                 }
@@ -64,7 +64,7 @@ import S400Core
         }.padding(.horizontal, 22).padding(.vertical, 16)
     }
     private var pageTitle: String {
-        switch model.selectedTab { case .overview: return "S400"; case .records: return "称重记录"; case .settings: return "设置" }
+        switch model.selectedTab { case .overview: return "WeighDock"; case .records: return "称重记录"; case .settings: return "设置" }
     }
     private var navigation: some View {
         HStack(spacing: 0) {
@@ -351,7 +351,7 @@ import S400Core
                 Button("返回", action: close).buttonStyle(.borderedProminent)
             }
         case .about:
-            SheetFrame(title: "S400 体重同步", close: close) {
+            SheetFrame(title: "WeighDock", close: close) {
                 Text("版本 \(model.appVersion)").font(.caption).foregroundStyle(.secondary)
                 Text("独立开源 macOS 工具，非小米或 Google 官方产品。体脂来自公式估算。")
                 Text("健康记录保存在本机；启用同步后直接发送至 Google Health。凭据保存在钥匙串。")
@@ -391,7 +391,7 @@ import S400Core
     private var licenseText: String {
         guard let folder = Bundle.main.resourceURL?.appendingPathComponent("Licenses"),
               let files = try? FileManager.default.contentsOfDirectory(at: folder, includingPropertiesForKeys: nil) else {
-            return "S400Menu：GPL-3.0-or-later。\nopenScale 协议改编：GPL-3.0-or-later。\nBodyMiScale 米家兼容公式、Google GTMAppAuth、AppAuth、GTMSessionFetcher：Apache-2.0。\n完整许可与归属随源码及发行包提供。"
+            return "WeighDock：GPL-3.0-or-later。\nopenScale 协议改编：GPL-3.0-or-later。\nBodyMiScale 米家兼容公式、Google GTMAppAuth、AppAuth、GTMSessionFetcher：Apache-2.0。\n完整许可与归属随源码及发行包提供。"
         }
         return files.sorted(by: { $0.lastPathComponent < $1.lastPathComponent }).compactMap { url in
             guard let text = try? String(contentsOf: url, encoding: .utf8) else { return nil }

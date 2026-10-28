@@ -2,7 +2,7 @@
   "format": 1,
   "project": "WeighDock",
   "version": "0.3.1",
-  "note": "Clean public source snapshot; no private git history, credentials, runtime data or interactive QA. Build targets retain S400Menu for compatibility.",
+  "note": "Tracked application source inventory; metadata excluded from source entries.",
   "files": [
     {
       "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
@@ -26,17 +26,17 @@
     },
     {
       "path": ".gitignore",
-      "sha256": "4a84ea801a692b598f41266fcf1e30952e8872307f143465e910dcbe5ee48109",
+      "sha256": "8ae1a4164666c272bb0281246b7caf17f73f191283587da095cca31716cab30a",
       "mode": 420
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "d2e5251c4d8457c6b1b6a81cce016eaecdc78d2a5615864a9c20547063f1cba7",
+      "sha256": "b72c0e2b2b95e307a619590ec3e92682d69690171bf3516c925a0616dd3ec22f",
       "mode": 420
     },
     {
       "path": "CONTRIBUTING.md",
-      "sha256": "d20e59589bf257dbdff60a5766fe844f4093e72895a3cb7637d2f221b27607d3",
+      "sha256": "68d70c36d3a0f97cda5107c773c3e060503a4649f67973efb37e6ed1b9dc36e2",
       "mode": 420
     },
     {
@@ -46,12 +46,12 @@
     },
     {
       "path": "Package.swift",
-      "sha256": "abf0b8ccb1982c8483054bb80003118437e7d6e0745e3ebd8c059ba53d815beb",
+      "sha256": "f832444e25c4656c7e58d3c63f7d934cc2562076c66f9d5cc63ad97507240d9a",
       "mode": 420
     },
     {
       "path": "README.md",
-      "sha256": "68ded3ec64ae6588eac9fe48651bee0b6419a6d6acb98fcabea5e7f3fb2f785c",
+      "sha256": "8ca094e2d1692dd44ac88dca047c9294689fc66564792a692d5980b0c5883836",
       "mode": 420
     },
     {
@@ -91,12 +91,12 @@
     },
     {
       "path": "Resources/Info.plist",
-      "sha256": "1aedc1696d24eea756fc3c8cc72b47172d3c609983d26287c5467e421d3b6c5b",
+      "sha256": "386f0e9dafa0bcac75d1084934227a067e66dc7dadbb603ce31b81fa3941d8ae",
       "mode": 420
     },
     {
       "path": "SECURITY.md",
-      "sha256": "fc1b71ceea7dd127a0c18217e8966fd735431999916b9c098a53ff8cd949951b",
+      "sha256": "a44387cf5e9789eacebaf8ca5430ac5e74bba749f272b29aabe83f36107984e1",
       "mode": 420
     },
     {
@@ -106,12 +106,12 @@
     },
     {
       "path": "Scripts/build.sh",
-      "sha256": "bacbf3556463fc7b94e22627143778862efa2ae027ca23f61c837ec696ea0df2",
+      "sha256": "0a2325696e44316ffe00fc41213e06e6708ff392bbbe10ee87f6dec6b864833e",
       "mode": 493
     },
     {
       "path": "Scripts/export-source.py",
-      "sha256": "8b34a6ab7bc49b2ce66333dcd25bdbcbda3b0c55e2671ff5d1667014dcafcbbe",
+      "sha256": "4d6ea50d3fb5ff56b27d7c7200e1355828af083ac59f73cc13b04b6f5327beee",
       "mode": 493
     },
     {
@@ -161,17 +161,13 @@
     },
     {
       "path": "Sources/S400Menu/App.swift",
-      "sha256": "ae07bc548a2d17c30e5db59638e774ec896795ec1cb975bca7f2fb46f1796947",
-      "mode": 420,
-      "source_sha256": "7f5e7724b04f7565357098af52fa6792b30a76ddf2a9e5dac083deb69ecbfc85",
-      "transformation": "Keep production branches; remove DEBUG interactive QA only"
+      "sha256": "4112e61ed58eb7a67829902ec6623b71e61e7eb7cea6adca77a42f8cc8d3006a",
+      "mode": 420
     },
     {
       "path": "Sources/S400Menu/AppModel.swift",
       "sha256": "14c053fe9619bcb9343bff25223101b42e081c57f3f983c8fcd7e285f6b66724",
-      "mode": 420,
-      "source_sha256": "f870da22187c4feca8d6a07fe62e3ca4454a9fb69b6d082e4c27a371fd933c5e",
-      "transformation": "Keep production branches; remove DEBUG interactive QA only"
+      "mode": 420
     },
     {
       "path": "Sources/S400Menu/Bluetooth.swift",
@@ -200,10 +196,8 @@
     },
     {
       "path": "Sources/S400Menu/Views.swift",
-      "sha256": "ff41f144e490b667ce87eb8308bed6ba47e96c0737abbd70aa5a459b2ff46e9b",
-      "mode": 420,
-      "source_sha256": "156f61b6b64a2eac5d3845f82664b26ff397d2496c723eb96cbabef0e28d7b86",
-      "transformation": "Keep production branches; remove DEBUG interactive QA only"
+      "sha256": "c4337fdbb8a65d784e8dc568b8b349fd79a13c72bfd3c872852251541e598824",
+      "mode": 420
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -1346,6 +1340,11 @@
       "mode": 420
     },
     {
+      "path": "docs/Compatibility.md",
+      "sha256": "5d4423d72d4b6a5533b9cfd528a49978e99c3ba9e8a6512f0f1105357ec88ba4",
+      "mode": 420
+    },
+    {
       "path": "docs/GoogleHealthSetup.md",
       "sha256": "8918973abfcbd4093e4f25ad0ac7bd7c71b4b7f8971cc2e38ea9e963f4819486",
       "mode": 420
@@ -1356,13 +1355,18 @@
       "mode": 420
     },
     {
+      "path": "docs/Privacy.md",
+      "sha256": "723e4d48f09873bec2d679a456fb476e9e78df2089b24596923e2199d351fb58",
+      "mode": 420
+    },
+    {
       "path": "docs/ReleaseChecklist.md",
-      "sha256": "1ad1be294b101fcd595f8634f53e57c42707c3aa37f5213df6e99b3453d00ff3",
+      "sha256": "add5bd41b4c8517f5f2a755ddaa08b6c577edeed5a45bd1715e206e39ea85f1a",
       "mode": 420
     },
     {
       "path": "docs/Validation.md",
-      "sha256": "f1243a50849e104f8ca2dbf2bb5822e3ce72249be994ff2538923709afb830e8",
+      "sha256": "2a16ccaf5519ffa4e04a75bc6c2e3dc7f4a8c2e331ebb650d52d2b5b35db40bc",
       "mode": 420
     },
     {
@@ -1373,36 +1377,6 @@
     {
       "path": "examples/desktop-oauth.example.json",
       "sha256": "57035d6843bd713160046ba8807e41a747981dbf99c1e4744006c5dfa3e33221",
-      "mode": 420
-    },
-    {
-      "path": "website/README.md",
-      "sha256": "ec4b0619227877214d5945d5625a1f67ab4becf1d703cb8e0995fbea619bcd89",
-      "mode": 420
-    },
-    {
-      "path": "website/icon.svg",
-      "sha256": "7a28610b0dc5a0b49b0f8adff1306ac2e021c9314267931f4c065eaa976a10ed",
-      "mode": 420
-    },
-    {
-      "path": "website/index.html",
-      "sha256": "9d2a8fcb5811b3a8bfac18bbbd9e272d001634f632194f9edc7020c11b2b2c11",
-      "mode": 420
-    },
-    {
-      "path": "website/prepare.py",
-      "sha256": "f24dcc0f2c58b6aa69f985ef491709e3feec32b5a41624cc09b81ad4c63baaed",
-      "mode": 420
-    },
-    {
-      "path": "website/privacy/index.html",
-      "sha256": "0533cb5319936ac8dca3803c3906ccf5ca08fc52bc16cc19206ad1708b14be9b",
-      "mode": 420
-    },
-    {
-      "path": "website/styles.css",
-      "sha256": "694012253faff08cdfee4e7c427426bb7c60394edb0b8abb6fe80e5076588897",
       "mode": 420
     }
   ]

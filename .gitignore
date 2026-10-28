@@ -25,5 +25,3 @@ credentials*.json
 *.mobileprovision
 # Private interactive design work is kept locally, outside the source release.
 /design/
-website/dist/
-website/s400-pages-upload.zip

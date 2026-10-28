@@ -5,10 +5,10 @@ mkdir -p .build/{cache,config,security,ModuleCache} build
 export CLANG_MODULE_CACHE_PATH="$PWD/.build/ModuleCache"
 export SWIFTPM_MODULECACHE_OVERRIDE="$PWD/.build/ModuleCache"
 swift build -c release --cache-path .build/cache --config-path .build/config --security-path .build/security --disable-sandbox
-app="${1:-$PWD/build/S400Menu.app}"
+app="${1:-$PWD/build/WeighDock.app}"
 rm -rf "$app"
 mkdir -p "$app/Contents/MacOS" "$app/Contents/Resources/Licenses"
-cp .build/release/S400Menu "$app/Contents/MacOS/S400Menu"
+cp .build/release/WeighDock "$app/Contents/MacOS/WeighDock"
 cp Resources/Info.plist "$app/Contents/Info.plist"
 # Dependency resource bundles contain privacy manifests; preserve them in the
 # standard signed app resource location (these SDKs do not call Bundle.module).
